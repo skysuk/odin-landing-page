@@ -29,10 +29,57 @@ ul {
     padding: 0;
     list-style-type: none;
     gap: 16px;
-    color: lightgray;
+    color: white;
+    opacity: 0.75;
     margin-right: 200px;
 }
 
-sign-up {
+.sign-up {
     display: flex;
+    justify-content: space-between;
+    background: #1F2937;
+    padding: 150px 200px;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.sign-up-title {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    width: 350px;
+}
+
+.sign-up-subtext {
+    color: white;
+    font-size: 18px;
+    opacity: 0.75;
+    width: 450px;
+}
+
+.sign-up-image {
+    background: gray;
+    color: white;
+    opacity: 0.75;
+    padding: 100px 150px;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 125px;
+}
+
+button.sign-up-1 {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
 }
