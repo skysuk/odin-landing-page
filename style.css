@@ -75,14 +75,14 @@ button {
   padding: 8px 16px;
   border-radius: 8px;
   width: 125px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 button.sign-up-1 {
   background: royalblue;
   border: 1px solid royalblue;
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
 }
 
 .random-info {
@@ -143,13 +143,35 @@ button.sign-up-1 {
 
 .call-to-action {
     background: #3882F6;
-    margin: 100px 200px;
-    border-radius: 15px;
+    margin: 100px 220px;
+    padding: 60px 120px;
+    border-radius: 10px;
     color: white;
     display: flex;
     justify-content: space-between;
 }
 
+.call-title {
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.call-subtext {
+    padding-top: 4px;
+    font-size: 18px;
+    font-weight: 300;
+    opacity: 75%;
+}
+
+button.sign-up-2 {
+    background:#3882F6;
+    border: 2px solid white;
+}
+
 .footer {
+    background: #1F2937;
     text-align: center;
+    color: #F9FAF8;
+    font-weight: 300;
+    padding: 50px;
 }
