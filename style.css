@@ -140,3 +140,16 @@ button.sign-up-1 {
     font-size: 24px;
     font-weight: 600;
 }
+
+.call-to-action {
+    background: #3882F6;
+    margin: 100px 200px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    text-align: center;
+}
