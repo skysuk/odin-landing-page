@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background: white;
 }
 
 .header {
@@ -114,4 +115,28 @@ button.sign-up-1 {
     width: 150px;
     opacity: 60%;
     padding-top: 12px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E5E7EB;
+    padding: 125px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    line-height: 1.2;
+    width: 825px;
+}
+
+.quote-author {
+    margin-left: auto;
+    padding-right: 225px;
+    font-size: 24px;
+    font-weight: 600;
 }
